@@ -1,0 +1,387 @@
+.first-content {
+    width: 49%;
+}
+
+.last-content {
+    width: 49%;
+}
+
+.Work {
+    display: flex;
+    justify-content: space-between;
+    
+}
+h1.content-creator-caption {
+    text-align: center;
+    font-size: 51px;
+    font-weight: 600;
+    margin-bottom: 61px;
+}
+.content-creator-we-need{
+    background: #F5FBFF;
+    padding: 60px 0;
+}
+
+.center-row {
+    width: 1%;
+    background: #2CCED2;
+}
+
+.center-row {
+    width: 0.7%;
+    background: #2CCED2;
+    border-radius: 10px;
+}
+
+.content-writer {
+    margin-left: 258px;
+    position: relative;
+    left: 9px;
+    margin-top: 140px;
+}
+
+.content-writer h1 {
+    position: relative;
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.content-writer h1::before {
+    content: '';
+    position: absolute;
+    top: 54px;
+    left: 9px;
+    width: 100%;
+    height: 4px;
+    background: #2CCED2;
+}
+.content-writer h1 span {
+    display: inline-block;
+    position: relative;
+    z-index: 99 !important;
+    background: #F9968B;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.content-caption {
+    text-align: center;
+}
+.content-caption h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    bottom: 35px;
+}
+.about-content-writer {
+    padding-top: 40vh;
+}
+
+.about-content-writer p {
+    font-size: 27px;
+    padding-left: 67px;
+    line-height: 41px;
+}
+
+.about-content-writer-more-text p{
+    font-size: 27px;
+    padding-right: 67px;
+    line-height: 41px;
+    padding-left: 4px;
+}
+
+.about-content-writer-more-text {
+    margin-top: 16vh;
+}
+
+.content-second-section {
+    margin-right: 258px;
+    position: relative;
+    left: -17px;
+    margin-top: 390px;
+    text-align: end;
+    border-top: 4px solid #2CCED2;
+}
+
+.content-second-section h1 span {
+    display: inline-block;
+    position: relative;
+    z-index: 99 !important;
+    background: #F9968B;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.content-second-section h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFF;
+    position: relative;
+    bottom: 104px;
+}
+
+.content-second-section-.content-caption {
+    position: relative;
+    bottom: 112px;
+}
+
+@media only screen and (max-width: 990px)  {
+    .content-writer {
+        margin-left: 0;
+        position: relative;
+        left: 3px;
+        margin-top: 140px;
+    }
+    .content-writer h1 {
+        position: relative;
+        font-size: 35px;
+        font-weight: 600;
+        color: #FFF;
+    }
+
+    .content-writer h1 span {
+        display: inline-block;
+        position: relative;
+        z-index: 99 !important;
+        background: #F9968B;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .content-caption h2 {
+        font-size: 31px;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+        bottom: 17px;
+    }
+    .content-caption {
+        text-align: left;
+    }
+    .responsive {
+        margin-left: 80px;
+    }
+
+    .content-writer h1::before {
+        content: '';
+        position: absolute;
+        top: 54px;
+        left: 6px;
+        width: 100%;
+        height: 4px;
+        background: #2CCED2;
+    }
+
+    .content-second-section {
+        margin-right: 80px;
+        position: relative;
+        left: -17px;
+        margin-top: 390px;
+        text-align: end;
+        border-top: 4px solid #2CCED2;
+    }
+    .content-second-section {
+        margin-right: 80px;
+        position: relative;
+        left: -7px;
+        margin-top: 128px;
+        text-align: end;
+        border-top: 4px solid #2CCED2;
+    }
+
+    .content-second-section h1 span {
+        display: inline-block;
+        position: relative;
+        z-index: 99 !important;
+        background: #F9968B;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .content-second-section h1 {
+        font-size: 35px;
+        font-weight: 600;
+        color: #FFF;
+        position: relative;
+        bottom: 104px;
+    }
+    .content-second-section h1 span {
+        display: inline-block;
+        position: relative;
+        z-index: 99 !important;
+        background: #F9968B;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        border-radius: 50%;
+        top: 29px;
+    }
+
+    .content-caption h2 {
+        font-size: 31px;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+        bottom: 0px;
+    }
+    h2.editor {
+        text-align: end !important;
+        margin-top: 42px;
+        margin-right: 15px;
+    }
+    .about-content-writer p {
+        font-size: 27px;
+        padding-left: 16px;
+        line-height: 41px;
+    }
+    .about-content-writer-more-text p {
+        font-size: 27px;
+        padding-right: 10px;
+        line-height: 41px;
+        padding-left: 4px;
+    }
+
+    .about-content-writer p {
+        font-size: 27px;
+        padding-left: 16px;
+        line-height: 41px;
+        margin-top: 122px !important;
+    }
+    h1.content-creator-caption {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 600;
+        margin-bottom: 64px;
+    }
+}
+
+@media only screen and (max-width: 660px)  {
+    .content-writer h1::before {
+        content: '';
+        position: absolute;
+        top: 54px;
+        left: 2px !important;
+        width: 100%;
+        height: 4px;
+        background: #2CCED2;
+    }
+
+    .content-caption h2 {
+        font-size: 26px !important;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+        bottom: 0px;
+        right: 30px;
+    }
+
+    .content-caption h2 {
+        font-size: 26px !important;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+        bottom: 0px;
+        right: 30px;
+        margin-top: 41px;
+    }
+}
+
+@media only screen and (max-width: 660px)  {
+    .content-caption h2 {
+        font-size: 26px !important;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+        bottom: 0px;
+        right: 30px;
+        margin-top: 0px !important;
+    }
+
+    .about-content-writer-more-text p {
+        font-size: 19px !important;
+        line-height: 24px !important;
+    }
+    .content-caption h2 {
+        font-size: 20px !important;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+        bottom: 0px;
+        right: 10px;
+        margin-top: 0px !important;
+    }
+    .about-content-writer {
+        padding-top: 4vh;
+    }
+    .about-content-writer p {
+        font-size: 19px;
+        padding-left: 16px;
+        line-height: 22px;
+        margin-top: 122px !important;
+    }
+    h2.editor {
+        position: relative;
+        top: 32px;
+    }
+    .responsive {
+        margin-left: 40px !important;
+    }
+    .content-second-section {
+        margin-right: 40px !important;
+        position: relative;
+        left: -7px;
+        margin-top: 128px;
+        text-align: end;
+        border-top: 4px solid #2CCED2;
+    }
+}
+
+/* @media only screen and (max-width: 2000px) and (min-width: 1800px)  {
+    .about-content-writer {
+        padding-top: 30vh !important;
+    }
+    .about-content-writer-more-text {
+        margin-top: 5vh !important;
+    }
+    .about-content-writer {
+        padding-top: 16vh !important;
+    }
+} */
+@media only screen and (max-width: 3000px) and (min-width: 2000px)  {
+  
+    .about-content-writer-more-text {
+        margin-top: 5vh !important;
+    }
+    .about-content-writer {
+        padding-top: 16vh !important;
+    }
+    .about-content-writer {
+        padding-top: 11vh !important;
+    }
+
+    h2.editor {
+        text-align: end !important;
+    }
+    .content-caption h2 {
+        font-size: 50px;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+        bottom: 35px;
+        text-align: left !important;
+    }
+}
